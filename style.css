@@ -1,0 +1,127 @@
+/* Estilos Globais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #343a40;
+}
+
+/* Barra de navegação */
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #ffcc00 !important;
+}
+
+/* Cabeçalho */
+header {
+    padding: 20px 0;
+}
+
+/* Seção Principal */
+main {
+    padding: 40px 0;
+}
+
+/* Seção de Produtos */
+.card {
+    margin-bottom: 30px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.card-body {
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+}
+
+/* Botões */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Formulário de Contato */
+form .form-label {
+    font-weight: bold;
+    color: #343a40;
+}
+
+form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+}
+
+form .btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+/* Rodapé */
+footer {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+    color: #343a40;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Mapa */
+iframe {
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Seção de Carreiras */
+.card-body h5 {
+    color: #007bff;
+}
+
+.card-body ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.card-body ul li {
+    margin-bottom: 10px;
+}
+
+.card-body ul li strong {
+    color: #343a40;
+}
